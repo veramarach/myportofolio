@@ -18,6 +18,7 @@ const Hero :React.FC= () => {
        
         <h2 className=' font-extrabold text-5xl  animate-slide-in bg-gradient-to-r from-red  to-orange text-transparent bg-clip-text  '>I'm a full stack web developer</h2>
         <a href={cv}
+        download=""
         
         >
           <div className='flex my-8'>

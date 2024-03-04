@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects:React.FC= () => {
   return (
-    <div id='project' className="bg-[#242424] w-full h-[100vh]  py-8">
+    <div id='project' className="bg-[#242424] w-full h-[100vh]  py-6">
         <div className='flex justify-center'>
        <h2 className='text-white font-bold text-5xl absolute mt-2 '>Projects</h2>
         <div className='w-[150px] h-[25px] bg-[#D63484]   mt-8 ml-20'></div>
@@ -12,7 +12,7 @@ const Projects:React.FC= () => {
        <div className='flex w-full justify-center' >
          
          
-         <div className=' bg-[#3216bb] w-[55%] h-[500px] flex-col flex mt-16 hover:animate-pulse '>
+         <div className=' bg-[#3216bb] w-[55%] h-[500px] flex-col flex mt-6 hover:animate-pulse '>
             <a href="https://ecommerce-int.vercel.app/">
             <div className='bg-[#f1f1f1] h-[370px] w-[90%] mt-16'></div>
             </a>
