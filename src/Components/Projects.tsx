@@ -1,25 +1,22 @@
 import React from 'react'
+import logo from "../assets/Screenshot 2024-03-04 153724.png"
 
 const Projects:React.FC= () => {
   return (
     <div id='project' className="bg-[#242424] w-full h-[100vh]  py-6">
         <div className='flex justify-center'>
-       <h2 className='text-white font-bold text-5xl absolute mt-2 '>Projects</h2>
-        <div className='w-[150px] h-[25px] bg-[#D63484]   mt-8 ml-20'></div>
+       <h2 className='text-white font-bold text-5xl underline decoration-pink tracking-[4px] '>Projects</h2>
        </div>
 
-       
        <div className='flex w-full justify-center' >
-         
-         
-         <div className=' bg-[#3216bb] w-[55%] h-[500px] flex-col flex mt-6 hover:animate-pulse '>
+         <div className=' bg-[#3216bb] w-[55%] h-[500px] flex-col flex mt-8 hover:animate-pulse '>
             <a href="https://ecommerce-int.vercel.app/">
-            <div className='bg-[#f1f1f1] h-[370px] w-[90%] mt-16'></div>
+            <div className='bg-[#f1f1f1] h-[370px] w-[90%] mt-16'>
+              <img className=' object-contain h-[370px]' src={logo}/>
+            </div>
             </a>
           </div>
-         
-         
-
+        
             <div className='text-white mt-14 relative right-14 top-16'>
               <h2 className=' font-bold text-3xl w-[250px]'>Mr Bara Ecommerce App</h2>
               <p className='w-[300px] font-light'>FullStack ecommerce application built with React,Node js,Express js and MongoDB</p>

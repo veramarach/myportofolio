@@ -15,10 +15,9 @@ const About:React.FC = () => {
   return (
     <div id='about' className='w-full h-[100vh] bg-[#242424] py-8 '>
        <div className='flex justify-center'>
-       <h2 className='text-white font-bold text-5xl absolute mt-2 '>About</h2>
-        <div className='w-[150px] h-[25px] bg-[#D63484]  mt-8 ml-20'></div>
+       <h2 className='text-white font-bold text-5xl underline decoration-pink tracking-[4px] '>About</h2>
        </div>
-        <div className=' mt-10 flex justify-evenly w-[100%]'>
+        <div className=' mt-12 flex justify-evenly w-[100%]'>
         <div >
             <div className=' mb-6 p-1  w-[300px] h-[300px]   bg-gradient-to-tr from-orange to-green  rounded-full '>
                     <div className="rounded-full p-[0.8px] mt-[0.8px]  w-[290px]  h-[290px] dark:bg-white ">
@@ -29,7 +28,6 @@ const About:React.FC = () => {
                     development.The unique combination of creativity,logic,technology and never running out of new things to discover
                     drives my excitement and passion for web development.Right now you can find me hacking away primarily with Tailwind,Typscript,redux,HTML and CSS related.
                 </p> 
-               
             </div>
            
            <div className=' flex gap-10 justify-center animate-fade-down animate-delay-1000 animate-ease-linear'>
@@ -81,8 +79,7 @@ const About:React.FC = () => {
                <div className=' bg-gradient-to-r from-orange to-green p-[0.8px] rounded-md'>
                     <div className=' bg-black p-6 rounded-md flex items-center gap-2'>
                         <img src={logo7} className='h-[50px] ml-2 '/>
-                        <span>GIT</span>
-                        
+                        <span>GIT</span>  
                     </div>
                </div>
             </div>
@@ -108,10 +105,7 @@ const About:React.FC = () => {
                </div>
             </div>
            </div>
-
-
         </div>
-
 
     </div>
   )
