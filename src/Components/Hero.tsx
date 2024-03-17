@@ -5,11 +5,11 @@ import { FaArrowDown } from "react-icons/fa6";
 
 const Hero :React.FC= () => {
   return (
-    <div id='home' className=' h-[100vh]  tablet:h-full tablet:bg-red  w-full  tablet:flex tablet:items-center tablet:justify-center   tablet:overflow-hidden tablet:bg-[#242424]'>
-    <div className='  bg-hero-image bg-cover  h-[100vh] tablet:bg-none  '>
-       <div className=' p-56 tablet:p-20'>  
-    <div className=' tablet:w-full  tablet:px-12 tablet:py-16  tablet:items-center tablet:justify-center tablet:flex-col '>
-    <h2 className=' font-extrabold tablet:w-[350px] text-5xl tablet:text-4xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
+    <div id='home' className=' h-[100vh] tablet:p-10  tablet:h-full w-full  tablet:flex tablet:items-center tablet:justify-center  tablet:bg-[#242424]'>
+    <div className='  bg-hero-image bg-cover  h-[100vh] tablet:bg-none   '>
+       
+    <div className=' p-56  tablet:p-42 tablet:w-full   tablet:items-center tablet:justify-center tablet:flex-col '>
+    <h2 className=' font-extrabold tablet:w-[350px]  text-5xl tablet:text-4xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
             Hello,i'm Vera
             <MdWavingHand className='tablet:hidden animate-waving-hand fill-pink text-6xl font-bold  ml-2 ' />
         </h2>
@@ -19,12 +19,12 @@ const Hero :React.FC= () => {
         <a href={cv}
         download=""
         >
-          <div className='flex my-8 tablet:my-3 '>
+          <div className='flex my-8  '>
         <div  className="border-pink border-double w-[140px] h-[50px] p-6 border-4 text-pink flex gap-2 items-center animate-slide-in hover:border-[#D63484]">Resume
         <FaArrowDown />
         </div>
         </div></a>
-    </div>
+    
        
        </div>  
        
