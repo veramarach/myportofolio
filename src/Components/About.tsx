@@ -13,7 +13,7 @@ import logo10 from "../assets/product design ui.png"
 
 const About:React.FC = () => {
   return (
-    <div id='about' className='w-full h-[100vh] tablet:h-full bg-[#242424] py-10 tablet:py-20  tablet:flex  tablet:flex-col tablet:items-center  '>
+    <div id='about' className='w-full h-[100vh] tablet:h-full bg-[#242424] py-10  tablet:py-0  tablet:flex  tablet:flex-col tablet:items-center  '>
        <div className='flex justify-center tablet:flex-col' >
        <h2 className='text-white font-bold text-5xl underline decoration-pink tracking-[4px] tablet:text-3xl '>About</h2>
        </div>
@@ -26,7 +26,7 @@ const About:React.FC = () => {
                     </div>
                 </div>
            </div>
-                <p className='w-[450px] font-semibold text-[13px] tablet:text-center tablet:w-full tablet:text-[10px] tablet:p-2'>Fully Committed to the philosophy of life-long learning.I'm a full stack developer with a deep passion for javascript,React and all things web
+                <p className='w-[450px] font-semibold text-[13px]  text-white tablet:text-center tablet:w-full tablet:text-[10px] tablet:p-2'>Fully Committed to the philosophy of life-long learning.I'm a full stack developer with a deep passion for javascript,React and all things web
                     development.The unique combination of creativity,logic,technology and never running out of new things to discover
                     drives my excitement and passion for web development.Right now you can find me hacking away primarily with Tailwind,Typscript,redux,HTML and CSS related.
                 </p> 

@@ -3,13 +3,13 @@ import logo from "../assets/Screenshot 2024-03-04 153724.png"
 
 const Projects:React.FC= () => {
   return (
-    <div id='project' className="  bg-[#242424] w-full h-[100vh] tablet:h-[170vh]  py-6">
+    <div id='project' className="  bg-[#242424] w-full h-[100vh] tablet:h-full  py-6">
         <div className='flex justify-center'>
        <h2 className='text-white font-bold text-5xl underline decoration-pink tracking-[4px] tablet:text-3xl '>Projects</h2>
        </div>
 
-       <div className='flex w-full justify-center tablet:flex-col tablet:items-center' >
-         <div className=' bg-[#3216bb] w-[55%] h-[500px] tablet:h-[300px] tablet:w-[80%]  flex-col flex mt-8 hover:animate-pulse '>
+       <div className='flex w-full tablet:justify-center tablet:flex-col tablet:items-center' >
+         <div className='ml-20 tablet:ml-0 bg-[#3216bb] w-[55%] h-[500px] tablet:h-[300px] tablet:w-[80%]  flex-col flex mt-8 hover:animate-pulse '>
             <a href="https://ecommerce-int.vercel.app/">
             <div className='bg-[#f1f1f1] h-[370px]  w-[90%]  tablet:h-[220px]  tablet:mt-10 mt-16'>
               <img className=' object-contain h-[370px] tablet:h-[220px]' src={logo}/>

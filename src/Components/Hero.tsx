@@ -5,17 +5,17 @@ import { FaArrowDown } from "react-icons/fa6";
 
 const Hero :React.FC= () => {
   return (
-    <div id='home' className=' h-[100vh]  w-screen   tablet:text-center tablet:flex tablet:items-center tablet:justify-center tablet:w-screen  tablet:overflow-hidden tablet:bg-[#242424]'>
+    <div id='home' className=' h-[100vh]  w-full  tablet:flex tablet:items-center tablet:justify-center   tablet:overflow-hidden tablet:bg-[#242424]'>
     <div className='  bg-hero-image bg-cover h-[100vh] tablet:bg-none  '>
-       <div className=' p-56  tablet:py-40 '>  
-    <div className=' tablet:text-center tablet:w-[300px]'>
-    <h2 className=' font-extrabold text-5xl  tablet:text-4xl  tablet:ml-3   bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
+       <div className=' p-56 tablet:p-0'>  
+    <div className='  tablet:h-[300px] tablet:w-full tablet:p-10 tablet:py-28 tablet:px-12   tablet:items-center tablet:justify-center tablet:flex-col '>
+    <h2 className=' font-extrabold text-5xl tablet:text-3xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
             Hello,i'm Vera
-            <MdWavingHand className='tablet:hidden animate-waving-hand fill-pink text-6xl font-bold  ml-2' />
+            <MdWavingHand className='tablet:hidden animate-waving-hand fill-pink text-6xl font-bold  ml-2 ' />
         </h2>
        
-        <h2 className=' tablet:text-4xl font-extrabold text-5xl  animate-slide-in bg-gradient-to-r from-red  to-orange text-transparent bg-clip-text  '>I'm a full stack web developer</h2>
-    </div>
+      
+        <h2 className=' tablet:text-3xl font-extrabold text-5xl  animate-slide-in bg-gradient-to-r from-red  to-orange text-transparent bg-clip-text  '>I'm a full stack web developer</h2>
         <a href={cv}
         download=""
         >
@@ -24,6 +24,8 @@ const Hero :React.FC= () => {
         <FaArrowDown />
         </div>
         </div></a>
+    </div>
+       
        </div>  
        
     </div>
