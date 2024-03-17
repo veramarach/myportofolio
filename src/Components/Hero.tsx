@@ -5,17 +5,17 @@ import { FaArrowDown } from "react-icons/fa6";
 
 const Hero :React.FC= () => {
   return (
-    <div id='home' className=' h-[100vh]  tablet:h-[70vh] tablet:bg-red  w-full  tablet:flex tablet:items-center tablet:justify-center   tablet:overflow-hidden tablet:bg-[#242424]'>
+    <div id='home' className=' h-[100vh]  tablet:h-full tablet:bg-red  w-full  tablet:flex tablet:items-center tablet:justify-center   tablet:overflow-hidden tablet:bg-[#242424]'>
     <div className='  bg-hero-image bg-cover  h-[100vh] tablet:bg-none  '>
        <div className=' p-56 tablet:p-20'>  
     <div className=' tablet:w-full  tablet:px-12 tablet:py-16  tablet:items-center tablet:justify-center tablet:flex-col '>
-    <h2 className=' font-extrabold tablet:w-[300px] text-5xl tablet:text-3xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
+    <h2 className=' font-extrabold tablet:w-[350px] text-5xl tablet:text-4xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
             Hello,i'm Vera
             <MdWavingHand className='tablet:hidden animate-waving-hand fill-pink text-6xl font-bold  ml-2 ' />
         </h2>
        
       
-        <h2 className=' tablet:text-3xl font-extrabold text-5xl  animate-slide-in bg-gradient-to-r from-red  to-orange text-transparent bg-clip-text  '>I'm a full stack web developer</h2>
+        <h2 className=' tablet:text-4xl font-extrabold text-5xl  animate-slide-in bg-gradient-to-r from-red  to-orange text-transparent bg-clip-text  '>I'm a full stack web developer</h2>
         <a href={cv}
         download=""
         >
