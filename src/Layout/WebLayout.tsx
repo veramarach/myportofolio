@@ -6,7 +6,7 @@ import Footer from '../Static/Footer'
 
 const WebLayout :React.FC= () => {
   return (
-    <div>
+    <div className='w-full h-full  tablet:overflow-hidden tablet:z-10'>
         <Header/>
         <Outlet/>
         <Footer/>

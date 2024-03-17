@@ -26,6 +26,26 @@ export default {
         
       }),
 
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        oswald: ['Oswald', 'sans-serif']
+      },
+
+      screens: {
+        laptopSmall: { max: '1024px' },
+        tablet: { max: '768px' },
+        premobile: { max: '650px' },
+        premobile1: { max: '550px' },
+        mobile: { max: '425px' },
+        phone: { max: '375px' },
+        radio: { max: '330px' },
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px'
+      },
+
       keyframes: {
         wave:{
           "0%":{transform:"rotate(0.0deg)"},
@@ -60,13 +80,6 @@ export default {
         "slide-in":"slide 3s linear ",
         "slide-down":"slidedown 10s ease"
       },
-
-      
-      
-
-      
-
-      
     }
 
 

@@ -10,17 +10,17 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Contact:React.FC = () => {
   return ( 
-    <div id='contact' className='bg-[#242424]   py-10 h-[70vh]'>
-        <div className='flex justify-center'>
-       <h2 className='text-white font-bold text-5xl underline decoration-pink tracking-[4px] '>Contacts</h2>
+    <div id='contact' className=' bg-[#242424] tablet:h-full   py-10 h-[70vh]'>
+        <div className='flex justify-center '>
+       <h2 className='text-white font-bold text-5xl tablet:text-3xl underline decoration-pink tracking-[4px] '>Contacts</h2>
        </div>
 
-        <div className='flex justify-evenly py-20'>
+        <div className='flex justify-evenly py-20 tablet:flex-col tablet:py-10 tablet:px-6'>
         <div>
         <h3 className='text-2xl font-bold w-[200px] bg-gradient-to-r from-red  to-green  text-transparent bg-clip-text inline-block '>Have a Question or want to work together?</h3>
         </div>
           
-       <div className='flex gap-20 ' >
+       <div className='flex gap-20 tablet:flex-col tablet:gap-6 tablet:py-10 ' >
        
         <div className=''>
             <a href="https://wa.link/55p1g9  "><div className='flex gap-3 font-bold text-white'>
