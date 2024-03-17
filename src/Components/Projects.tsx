@@ -3,7 +3,7 @@ import logo from "../assets/Screenshot 2024-03-04 153724.png"
 
 const Projects:React.FC= () => {
   return (
-    <div id='project' className="  bg-[#242424] w-full h-[100vh] tablet:h-full  py-6">
+    <div id='project' className="  bg-[#242424] w-full h-[100vh] tablet:h-full tablet:py-16 py-6">
         <div className='flex justify-center'>
        <h2 className='text-white font-bold text-5xl underline decoration-pink tracking-[4px] tablet:text-3xl '>Projects</h2>
        </div>
