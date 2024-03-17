@@ -7,9 +7,9 @@ const Hero :React.FC= () => {
   return (
     <div id='home' className=' h-[100vh]  w-full  tablet:flex tablet:items-center tablet:justify-center   tablet:overflow-hidden tablet:bg-[#242424]'>
     <div className='  bg-hero-image bg-cover h-[100vh] tablet:bg-none  '>
-       <div className=' p-56 tablet:p-0'>  
-    <div className='  tablet:h-[300px] tablet:w-full tablet:p-10 tablet:py-28 tablet:px-12   tablet:items-center tablet:justify-center tablet:flex-col '>
-    <h2 className=' font-extrabold text-5xl tablet:text-3xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
+       <div className=' p-56 tablet:p-20'>  
+    <div className=' bg-red tablet:w-full tablet:p-10 tablet:py-14 tablet:px-12   tablet:items-center tablet:justify-center tablet:flex-col '>
+    <h2 className=' font-extrabold tablet:w-[300px] text-5xl tablet:text-3xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
             Hello,i'm Vera
             <MdWavingHand className='tablet:hidden animate-waving-hand fill-pink text-6xl font-bold  ml-2 ' />
         </h2>
@@ -19,7 +19,7 @@ const Hero :React.FC= () => {
         <a href={cv}
         download=""
         >
-          <div className='flex my-8 tablet:items-center tablet:justify-center'>
+          <div className='flex my-8 '>
         <div  className="border-pink border-double w-[140px] h-[50px] p-6 border-4 text-pink flex gap-2 items-center animate-slide-in hover:border-[#D63484]">Resume
         <FaArrowDown />
         </div>
