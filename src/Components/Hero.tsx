@@ -8,14 +8,14 @@ const Hero :React.FC= () => {
     <div id='home' className=' h-[100vh] tablet:p-10  tablet:h-full w-full  tablet:flex tablet:items-center tablet:justify-center  tablet:bg-[#242424]'>
     <div className='  bg-hero-image bg-cover  h-[100vh] tablet:bg-none   '>
        
-    <div className=' p-56  tablet:p-42 tablet:w-full   tablet:items-center tablet:justify-center tablet:flex-col '>
-    <h2 className=' font-extrabold tablet:w-[350px]  text-5xl tablet:text-4xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
+    <div className=' p-56  tablet:w-full   tablet:items-center tablet:justify-center tablet:flex-col '>
+    <h2 className=' font-extrabold tablet:w-[350px]  text-5xl tablet:text-5xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
             Hello,i'm Vera
             <MdWavingHand className='tablet:hidden animate-waving-hand fill-pink text-6xl font-bold  ml-2 ' />
         </h2>
        
       
-        <h2 className=' tablet:text-4xl font-extrabold text-5xl  animate-slide-in bg-gradient-to-r from-red  to-orange text-transparent bg-clip-text  '>I'm a full stack web developer</h2>
+        <h2 className=' tablet:text-5xl font-extrabold text-5xl  animate-slide-in bg-gradient-to-r from-red  to-orange text-transparent bg-clip-text  '>I'm a full stack web developer</h2>
         <a href={cv}
         download=""
         >
