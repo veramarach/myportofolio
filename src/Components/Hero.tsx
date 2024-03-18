@@ -5,8 +5,8 @@ import { FaArrowDown } from "react-icons/fa6";
 
 const Hero :React.FC= () => {
   return (
-    <div id='home' className=' h-[100vh] tablet:p-24 tablet:h-full w-full  tablet:flex tablet:items-center tablet:justify-center  tablet:bg-[#242424]'>
-    <div className='  bg-hero-image bg-cover  h-[100vh] tablet:bg-none   '>
+    <div id='home' className=' h-[100vh] tablet:p-24 tablet:h-full w-full  tablet:flex tablet:items-center tablet:justify-center  tablet:bg-[#242424] tablet:bg-hero-image'>
+    <div className='  bg-hero-image bg-cover  h-[100vh]  tablet:bg-center   '>
        
     <div className=' p-56  tablet:w-full   tablet:items-center tablet:justify-center tablet:flex-col '>
     <h2 className=' font-extrabold tablet:w-[350px]  text-5xl tablet:text-5xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>

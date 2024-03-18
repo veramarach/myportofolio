@@ -10,7 +10,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Contact:React.FC = () => {
   return ( 
-    <div id='contact' className=' bg-[#242424] tablet:h-full  tablet:bg-orange tablet:py-16   py-10 h-[100vh]'>
+    <div id='contact' className=' bg-[#242424] tablet:h-full   tablet:py-16   py-10 h-[100vh]'>
         <div className='flex justify-center '>
        <h2 className='text-white font-bold text-5xl tablet:text-3xl underline decoration-pink tracking-[4px] '>Contacts</h2>
        </div>
