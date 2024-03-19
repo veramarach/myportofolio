@@ -22,7 +22,7 @@ const Header:React.FC = () => {
             activeClass ="active"
             smooth = {true}
             to ="home">
-            <nav className=' text-white hover:text-[#D63484]'>Home</nav>
+            <nav className=' text-white hover:text-pink-400'>Home</nav>
             </Link>
 
             <Link offset={-70}
@@ -31,7 +31,7 @@ const Header:React.FC = () => {
             smooth = {true}
             to ="about"
            >
-            <nav className='text-white hover:text-[#D63484]' >About</nav>
+            <nav className='text-white hover:text-pink-400' >About</nav>
             </Link>
 
             <Link offset={-70}
@@ -39,7 +39,7 @@ const Header:React.FC = () => {
             activeClass ="active"
             smooth = {true}
             to ="project">
-            <nav className=' text-white hover:text-[#D63484] '>Project</nav>
+            <nav className=' text-white hover:text-pink-400 '>Project</nav>
             </Link>
 
             <Link offset={-70}
@@ -47,7 +47,7 @@ const Header:React.FC = () => {
             activeClass ="active"
             smooth = {true}
             to ="contact">
-            <nav className=' text-white hover:text-[#D63484] '>Contact</nav>
+            <nav className=' text-white hover:text-pink-400 '>Contact</nav>
             </Link>
 
         </div>
@@ -69,7 +69,7 @@ const Header:React.FC = () => {
             activeClass ="active"
             smooth = {true}
             to ="home">
-            <nav className=' text-white hover:text-[#D63484]'>Home</nav>
+            <nav className=' text-white hover:text-pink-400'>Home</nav>
             </Link>
 
             <Link offset={-70}
@@ -78,7 +78,7 @@ const Header:React.FC = () => {
             smooth = {true}
             to ="about"
            >
-            <nav className='text-white hover:text-[#D63484]' >About</nav>
+            <nav className='text-white hover:text-pink-400' >About</nav>
             </Link>
 
             <Link offset={-70}
@@ -86,7 +86,7 @@ const Header:React.FC = () => {
             activeClass ="active"
             smooth = {true}
             to ="project">
-            <nav className=' text-white hover:text-[#D63484] '>Project</nav>
+            <nav className=' text-white hover:text-pink-400 '>Project</nav>
             </Link>
 
             <Link offset={-70}
@@ -94,7 +94,7 @@ const Header:React.FC = () => {
             activeClass ="active"
             smooth = {true}
             to ="contact">
-            <nav className=' text-white hover:text-[#D63484] '>Contact</nav>
+            <nav className=' text-white hover:text-pink-400 '>Contact</nav>
             </Link>
             </div>
           

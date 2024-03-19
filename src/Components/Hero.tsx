@@ -9,18 +9,18 @@ const Hero :React.FC= () => {
     <div className='  bg-hero-image bg-cover  h-[100vh]  tablet:bg-center   '>
        
     <div className=' p-56  tablet:w-full   tablet:items-center tablet:justify-center tablet:flex-col '>
-    <h2 className=' font-extrabold tablet:w-[350px]  text-5xl tablet:text-5xl bg-gradient-to-r from-red to-green text-transparent bg-clip-text flex animate-slide-down '>
+    <h2 className=' font-extrabold tablet:w-[350px]  text-6xl tablet:text-5xl  bg-gradient-to-r  from-blue-300 via-pink-400 to-indigo-300 flex   text-transparent bg-clip-text  animate-slide-down '>
             Hello,i'm Vera
-            <MdWavingHand className='tablet:hidden animate-waving-hand fill-pink text-6xl font-bold  ml-2 ' />
+            <MdWavingHand className='tablet:hidden animate-waving-hand  fill-pink-300 text-6xl font-bold  ml-2 ' />
         </h2>
        
       
-        <h2 className=' tablet:text-5xl font-extrabold text-5xl  animate-slide-in bg-gradient-to-r from-red  to-orange text-transparent bg-clip-text  '>I'm a full stack web developer</h2>
+        <h2 className=' tablet:text-5xl font-extrabold text-6xl  animate-slide-in  bg-gradient-to-r from-blue-300 via-pink-400  to-fuchsia-600 text-transparent bg-clip-text  '>I'm a full stack web developer</h2>
         <a href={cv}
         download=""
         >
           <div className='flex my-8  '>
-        <div  className="border-pink border-double w-[140px] h-[50px] p-6 border-4 text-pink flex gap-2 items-center animate-slide-in hover:border-[#D63484]">Resume
+        <div  className="border-pink-300  border-double w-[140px] h-[50px] p-6 border-4 text-pink-300 flex gap-2 items-center animate-slide-in hover:border-fuchsia-600">Resume
         <FaArrowDown />
         </div>
         </div></a>

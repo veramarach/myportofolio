@@ -6,22 +6,22 @@ export default {
 "./components/**/*.{js,ts,jsx,tsx}"
 ],
   theme: {
-    colors:{
-      black:"black",
-      red:"red",
-      green:"green",
-      orange:"orange",
-      white:"white",
-      purple:"purple",
-      pink:"pink",
-      blue:"blue",
-      indigo:"indigo 400"
+    // colors:{
+      // black:"black",
+      // red:"red",
+      // green:"green",
+      // orange:"orange",
+      // white:"white",
+      // purple:"purple",
+      // pink:"pink",
+      // blue:"blue",
+      // indigo:"indigo 400"
 
-    },
+    // },
    
 
     extend: {
-      backgroundImage: (theme)=>({
+      backgroundImage: ()=>({
         "hero-image": "url('/src/assets/pexels-samad-ismayilov-764873.jpg')",
         
       }),
@@ -60,8 +60,9 @@ export default {
         },
 
         slide:{
-          "0%":{transform:"translateX(-100%)"},
-          "100%":{transform:"translateX(0%)"}
+           "0%":{transform:"translateX(-100%)"},
+           "100%":{transform:"translateX(0%)"}
+     
 
         },
         slidedown:{
@@ -84,6 +85,6 @@ export default {
 
 
   },
-  plugins: [require('tailwindcss-animated')],
+  // plugins: [require('tailwindcss-animated')],
 }
 

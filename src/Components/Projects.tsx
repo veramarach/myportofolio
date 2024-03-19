@@ -3,9 +3,9 @@ import logo from "../assets/Screenshot 2024-03-04 153724.png"
 
 const Projects:React.FC= () => {
   return (
-    <div id='project' className="  bg-[#242424] w-full  h-[100vh] tablet:h-full tablet:py-20 py-6">
+    <div id='project' className="  bg-[#242424] w-full  h-[100vh] py-14 tablet:h-full tablet:py-20 ">
         <div className='flex justify-center'>
-       <h2 className='text-white font-bold text-5xl underline decoration-pink tracking-[4px] tablet:text-3xl '>Projects</h2>
+       <h2 className='text-white font-bold text-5xl underline decoration-pink-400 tracking-[4px] tablet:text-3xl '>Projects</h2>
        </div>
 
        <div className='flex w-full tablet:justify-center tablet:flex-col tablet:items-center' >
@@ -23,12 +23,12 @@ const Projects:React.FC= () => {
 
              <div className='mt-8  flex flex-col gap-8 tablet:mt-4 tablet:gap-6'>
              <a href="https://ecommerce-int.vercel.app/">
-                <span className=' font-bold text-white  tracking-[6px] underline decoration-[#D63484] text-[20px]'>Live App</span>
+                <span className=' font-bold text-white  tracking-[6px] underline decoration-pink-400 text-[20px]'>Live App</span>
               </a>
 
               <div>
               <a href="https://github.com/veramarach/EcommerceApp">
-                <span className=' font-bold  tracking-[6px] text-white  underline decoration-[#D63484] text-[20px]'>Learn More</span>
+                <span className=' font-bold  tracking-[6px] text-white  underline decoration-pink-400 text-[20px]'>Learn More</span>
               </a>
               </div>
              </div>
