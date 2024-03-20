@@ -37,23 +37,23 @@ const About:React.FC = () => {
                <div className='flex gap-4 flex-col mt-12  '>
                <div className=' bg-gradient-to-r from-orange-500 to-green-600 tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px]  p-[0.8px] rounded-md'>
                     <div className=' bg-black p-6  tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col  rounded-md flex  '>
-                        <img src={logo1}  className=' object-contain w-full h-[50px] tablet:absolute  tablet:h-[20px] tablet:w-full tablet:top-14 '/>
-                        <span className='tablet:text-[6px] tablet:mt-2'>HTML</span>
+                        <img src={logo1}  className=' object-contain w-full h-[50px] tablet:absolute  tablet:h-[20px]  tablet:w-full'/>
+                        <span className='tablet:text-[6px] tablet:relative tablet:bottom-2'>HTML</span>
                     </div>
                </div>
 
                <div className=' bg-gradient-to-r from-orange-500 to-green-600 p-[0.8px] tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px]  rounded-md'>
                     <div className=' bg-black p-6 tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col  rounded-md flex '>
-                        <img src={logo2} className=' object-contain tablet:absolute  tablet:h-[20px] tablet:w-full tablet:top-32  h-[50px]'/>
-                        <span className='text-[6px] tablet:mt-2'>REACT</span>
+                        <img src={logo2} className=' object-contain tablet:absolute  tablet:h-[20px] tablet:w-full  h-[50px]'/>
+                        <span className='text-[6px] tablet:mt-2 tablet:relative tablet:bottom-4'>REACT</span>
                     </div>
                </div>
 
                <div className=' bg-gradient-to-r from-orange-500 to-green-600 p-[0.8px] tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px]  rounded-md'>
                     <div className=' bg-black p-6 tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col    rounded-md flex '>
                        
-                       <img src={logo3} className='object-contain tablet:absolute  tablet:h-[20px] tablet:w-full tablet:bottom-10 h-[50px] '/>
-                        <span className='tablet:text-[6px] tablet:mt-2'>EXPRESS.JS</span>
+                       <img src={logo3} className='object-contain tablet:absolute  tablet:h-[20px] tablet:w-full  h-[50px] '/>
+                        <span className='tablet:text-[6px] tablet:mt-2 tablet:relative tablet:bottom-4'>EXPRESS.JS</span>
                        
                     </div>
                </div>
@@ -63,27 +63,27 @@ const About:React.FC = () => {
             <div className='flex flex-col gap-4'>
             <div className=' bg-gradient-to-r from-orange-500 to-green-600 p-[0.8px] tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px] rounded-md'>
                     <div className=' bg-black p-6  tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col  rounded-md flex gap-4  items-center'>
-                        <img src={logo4} className="  h-[50px] object-contain tablet:absolute  tablet:h-[20px] tablet:w-[20px] tablet:top-2"/>
-                        <span className='tablet:text-[6px] tablet:mt-2'>JAVASCRIPT</span>
+                        <img src={logo4} className="  h-[50px] object-contain tablet:absolute  tablet:h-[20px] tablet:w-[20px]"/>
+                        <span className='tablet:text-[6px] tablet:mt-2 tablet:relative tablet:bottom-4'>JAVASCRIPT</span>
                     </div>
                </div> 
 
                <div className=' bg-gradient-to-r from-orange-500 to-green-600 p-[0.8px] tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px] rounded-md'>
                     <div className=' bg-black p-6 tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col  rounded-md flex items-center gap-5 '>
-                        <img src={logo5} className=' object-contain h-[50px] w-[50px] ml-2 tablet:absolute  tablet:h-[20px] tablet:w-[20px] tablet:top-20'/>
-                        <span className='tablet:text-[6px] tablet:mt-2 '>CSS</span>
+                        <img src={logo5} className=' object-contain h-[50px] w-[50px]  tablet:absolute  tablet:h-[20px] tablet:w-[20px] '/>
+                        <span className='tablet:text-[6px] tablet:mt-2 tablet:relative tablet:bottom-4 '>CSS</span>
                     </div>
                </div>
                <div className=' bg-gradient-to-r from-orange-500 to-green-600 p-[0.8px]  tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px] rounded-md'>
                     <div className=' bg-black p-6 tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col  rounded-md flex items-center'>
-                        <img src={logo6} className='w-[60px] object-contain tablet:absolute  tablet:h-[20px] tablet:w-[20px] tablet:top-36 h-[50px]'/>
-                        <span className='tablet:text-[6px]'>MONGODB</span>
+                        <img src={logo6} className='w-[60px] object-contain tablet:absolute  tablet:h-[20px] tablet:w-[20px]  h-[50px]'/>
+                        <span className='tablet:text-[6px] tablet:relative tablet:bottom-2'>MONGODB</span>
                     </div>
                </div>
                <div className=' bg-gradient-to-r from-orange-500 to-green-600 p-[0.8px] tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px] rounded-md'>
                     <div className=' bg-black p-6 tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col  rounded-md flex items-center gap-2'>
-                        <img src={logo7} className='h-[50px] ml-2 tablet:absolute  tablet:h-[20px] tablet:w-[20px] tablet:bottom-5'/>
-                        <span className='tablet:text-[6px] tablet:mt-2'>GIT</span>  
+                        <img src={logo7} className='h-[50px] ml-2 tablet:absolute  tablet:h-[20px] tablet:w-[20px]'/>
+                        <span className='tablet:text-[6px]  tablet:relative tablet:bottom-3'>GIT</span>  
                     </div>
                </div>
             </div>
@@ -91,20 +91,20 @@ const About:React.FC = () => {
             <div className='flex flex-col gap-4 mt-10'>
             <div className=' bg-gradient-to-r from-orange-500 to-green-600 p-[0.8px] tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px] rounded-md'>
                     <div className=' bg-black p-6  tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col  rounded-md flex items-center'>
-                        <img src={logo8} className='h-[50px] tablet:absolute  tablet:h-[20px] tablet:w-[20px] tablet:top-12'/>
-                        <span className='tablet:text-[6px] tablet:mt-2'>TAILWIND</span>
+                        <img src={logo8} className='h-[50px] tablet:absolute  tablet:h-[20px] tablet:w-[20px] '/>
+                        <span className='tablet:text-[6px] tablet:mt-2 tablet:relative tablet:bottom-5'>TAILWIND</span>
                     </div>
                </div>
                <div className=' bg-gradient-to-r from-orange-500 to-green-600 p-[0.8px] tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px] rounded-md'>
                     <div className=' bg-black p-6 tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col  rounded-md flex items-center'>
-                        <img src={logo9} className='h-[50px] tablet:absolute  tablet:h-[20px] tablet:w-[20px]  tablet:top-28'/>
-                        <span className='tablet:text-[6px] tablet:mt-2'>NODE.JS</span>
+                        <img src={logo9} className='h-[50px] tablet:absolute  tablet:h-[20px] tablet:w-[20px] '/>
+                        <span className='tablet:text-[6px] tablet:mt-2 tablet:relative tablet:bottom-4'>NODE.JS</span>
                     </div>
                </div>
                <div className=' bg-gradient-to-r from-orange-500 to-green-600 p-[0.8px] tablet:w-[50px] tablet:h-[50px] tablet:p-[0.8px] rounded-md'>
                     <div className=' bg-black p-6 flex items-center  tablet:w-full tablet:h-[5px]  tablet:items-center tablet:p-6 tablet:flex-col  rounded-md '>
-                        <img src={logo10} className='h-[50px] tablet:absolute  tablet:h-[20px] tablet:w-[20px] tablet:bottom-12 '/>
-                        <span className='tablet:text-[4px]  tablet:mt-2  '>PRODUCTDESIGN</span>
+                        <img src={logo10} className='h-[50px] tablet:absolute  tablet:h-[20px] tablet:w-[20px]'/>
+                        <span className='tablet:text-[5px]  tablet:mt-2  tablet:relative tablet:bottom-4 '>PRODUCTDESIGN</span>
                     </div>
                </div>
             </div>
