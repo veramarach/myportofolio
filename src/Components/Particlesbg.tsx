@@ -16,7 +16,7 @@ const Particlesbg = ( ) => {
         });
     }, []);
 
-    const particlesLoaded = (container:Container) => {
+    const ParticlesLoaded = (container:Container) =>  {
         console.log(container);
     };
    
@@ -24,7 +24,7 @@ const Particlesbg = ( ) => {
       <div className="absolute lg:hidden">
          { init && <Particles
             id="tsparticles"
-            particlesLoaded={particlesLoaded}
+            {...ParticlesLoaded}
             options={{
                 background: {
                     color: {
@@ -42,7 +42,7 @@ const Particlesbg = ( ) => {
                             enable: true,
                             mode: "grab",
                         },
-                        resize: true,
+                        
                     },
                     modes: {
                         push: {
@@ -78,7 +78,7 @@ const Particlesbg = ( ) => {
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            
                         },
                         value: 80,
                     },
