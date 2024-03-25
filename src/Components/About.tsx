@@ -13,7 +13,7 @@ import logo10 from "../assets/product design ui.png"
 
 const About:React.FC = () => {
   return (
-    <div id='about' className='w-full h-[100vh] tablet:h-full bg-[#242424] py-10  tablet:py-0  tablet:flex  tablet:flex-col tablet:items-center  '>
+    <div id='about' className='w-full h-[100vh] tablet:relative tablet:bg-transparent tablet:h-full bg-[#242424] py-10  tablet:py-0  tablet:flex  tablet:flex-col tablet:items-center  '>
        <div className='flex justify-center tablet:flex-col ' >
        <h2 className='text-white font-bold text-5xl underline decoration-pink-400 tracking-[4px] tablet:text-3xl '>About</h2>
        </div>
