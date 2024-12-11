@@ -22,7 +22,7 @@ const [text]= useTypewriter({
     
     <h1 className='  flex-col font-extrabold  delay-75 gap-3 tablet:relative tablet:w-[350px]  
            text-7xl tablet:text-5xl  text-white flex tablet:animation:none  text-transparent'>
-           <p> Hello,my name is vera </p>
+           <p> Hello,i am vera </p>
             <span>
             i'm a {text}
             </span>
