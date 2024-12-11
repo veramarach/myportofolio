@@ -5,17 +5,29 @@ import React,{useState} from 'react'
 
 const Header:React.FC = () => {
   const [showMenu, setshowMenu] = useState(false)
+  const [navbar, setnavbar] = useState(false)
+
   const HandleMenu = (e:any)=>{
     setshowMenu(!showMenu)
     e?.stopPropagation()
     
   }
-
-
+  
+  const changeBackground = () => {
+    if(window.scrollY >= 70)
+    {
+      setnavbar(true)
+    }else{
+       setnavbar(false)
+    }
+  }
+ 
+  window.addEventListener("scroll", changeBackground)
 
   return (
-    <div className='w-full bg-[#313131]  h-[70px] flex justify-end fixed z-10'>
-        <div className=' tablet:hidden flex gap-[40px] mt-5 text-[18px] font-bold text-white cursor-pointer mr-40   '>
+    <div className={` ${navbar ? "bg-black":"bg-transparent"} w-full h-[70px] flex justify-between fixed z-10 px-20`}>
+      <h1>LOGO</h1>
+        <div className=' tablet:hidden flex gap-10 mt-5 text-[18px] font-bold text-white cursor-pointer    '>
 
             <Link offset={-70}
             duration={2000}
@@ -56,7 +68,7 @@ const Header:React.FC = () => {
         <MdMenu />
         </div>
 
-        <div className={`fixed bg-black top-0 tablet:overflow-hidden bottom-0 px-10 pt-5 transition-all duration-700 ease-in  text-white  ${showMenu ? ' left-0 w-full': ' left-full w-full'} `}>
+    <div className={`fixed top-0 tablet:overflow-hidden bottom-0 px-10 pt-5 transition-all duration-700 ease-in  text-white  ${showMenu ? ' left-0 w-full': ' left-full w-full'} `}>
         
           <div className='justify-center flex text-4xl tablet:3xl font-bold transition-all duration-300 ease-in ' onClick={HandleMenu}>
              <MdClose />

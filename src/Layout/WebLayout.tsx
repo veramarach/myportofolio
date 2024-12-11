@@ -7,7 +7,7 @@ import Particlesbg from '../Components/Particlesbg'
 
 const WebLayout :React.FC= () => {
   return (
-    <div className='w-screen h-full tablet:overflow-hidden tablet:z-10'>
+    <div  className=' w-screen h-full tablet:overflow-hidden tablet:z-10'>
       <Particlesbg/>
         <Header/>
         <Outlet/>

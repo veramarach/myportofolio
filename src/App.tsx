@@ -4,7 +4,7 @@ import { mainRoute } from './Routes/AllRoute'
 
 const App = () => {
   return (
-    <div>
+    <div >
       <RouterProvider router={mainRoute}/>
 
     </div>

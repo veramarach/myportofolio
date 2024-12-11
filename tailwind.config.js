@@ -21,15 +21,16 @@ export default {
    
 
     extend: {
-      backgroundImage: ()=>({
-        "hero-image": "url('/src/assets/pexels-samad-ismayilov-764873.jpg')",
-        
-      }),
-
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
         oswald: ['Oswald', 'sans-serif']
       },
+
+      backgroundImage: ()=>({
+        "hero-image": "url('/src/assets/hero2-image.png')"
+      }),
+
+      
 
       screens: {
         laptopSmall: { max: '1024px' },
@@ -85,6 +86,6 @@ export default {
 
 
   },
-  // plugins: [require('tailwindcss-animated')],
+   plugins: [require('tailwindcss-animated')],
 }
 
